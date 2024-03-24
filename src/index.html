@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>~/startpage</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="kunzooz">
+    <div id="image" onclick="nextImage(currentIndex)">
+      <img id="carouselImage" src="images/1.webp" />
+      <script async src="js/theme.js" currentIndex="2"></script>
+    </div>
+    <div id="text">
+      <div id="greeting">Welcome back!</div>
+      <div id="date"></div>
+      <script async src="js/date.js"></script>
+      <div id="links">
+        <div class="urls">
+          <div class="header">~/general</div>
+          <ul>
+            <li><a href="https://mail.google.com">Mail</a></li>
+            <li><a href="https://drive.google.com/">Drive</a></li>
+            <li><a href="https://rss.casalab.cloud/">News</a></li>
+            <li><a href="https://calendar.google.com">Calendar</a></li>
+          </ul>
+        </div>
+        <div class="urls">
+          <div class="header">&nbsp;~/media </div>
+          <ul>
+            <li><a href="https://netflix.com/">Netflix</a></li>
+            <li><a href="https://youtube.com">Youtube</a></li>
+            <li><a href="https://player.casalab.cloud">Jellyfin</a></li>
+            <li><a href="https://reader.casalab.cloud">Kavita</a></li>
+          </ul>
+        </div>
+        <div class="urls">
+          <div class="header">~/social </div>
+          <ul>
+            <li><a href="https://facebook.com/">Facebook</a></li>
+            <li><a href="https://x.com">Twitter</a></li>
+            <li><a href="https://reddit.com">Reddit</a></li>
+            <li><a href="https://instagram.com/">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="urls">
+          <div class="header">&nbsp;~/tech </div>
+          <ul>
+            <li><a href="https://github.com/">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
